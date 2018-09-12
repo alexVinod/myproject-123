@@ -1,0 +1,45 @@
+body {
+	background-image: url("Chrysanthemum.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-honeydew {
+	color:rgb(10,100,25);
+	background-color: rgba(255,255,255,0.7);
+}
+
+.font-mono {
+	font-family: monospace;
+}
+
+#text-white {
+	color: darkblue;
+}
+
+.card {
+	box-shadow: 0px 5px 3px #337ab7,0px 0px 20px #337ab7;
+	
+
+	border-radius: 6px;
+	width: 50%;
+	padding: 8px;
+	margin: 20px;
+}
+
+p {
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-weight: bold;
+	letter-spacing: 4px;
+	word-spacing: 6px;
+	text-shadow: 0px 0px 2px red;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+	body {
+		background-image: url("Lighthouse.jpg");
+	}
+}
